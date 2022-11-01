@@ -168,3 +168,4 @@ env*.yml
 *.xml
 *.pkl
 data/*
+.vscode/
