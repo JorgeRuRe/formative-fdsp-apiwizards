@@ -1,0 +1,41 @@
+{
+   "Posts":{
+      "Id":"string",
+      "PostTypeId":"string",
+      "AcceptedAnswerId":"string",
+      "CreationDate":"datetime64",
+      "Score":"Int64",
+      "ViewCount":"Int64",
+      "Body":"string",
+      "OwnerUserId":"string",
+      "LastEditorUserId":"string",
+      "LastEditDate":"datetime64",
+      "LastActivityDate":"datetime64",
+      "Title":"string",
+      "Tags":"string",
+      "AnswerCount":"Int64",
+      "CommentCount":"Int64",
+      "ContentLicense":"string",
+      "ParentId":"string",
+      "FavoriteCount":"Int64",
+      "LastEditorDisplayName":"string",
+      "ClosedDate":"datetime64",
+      "OwnerDisplayName":"string",
+      "CommunityOwnedDate":"datetime64"
+   },
+   "Users":{
+      "Id": "string",
+      "Reputation": "Int64",
+      "CreationDate": "datetime64",
+      "DisplayName": "string",
+      "LastAccessDate": "datetime64",
+      "WebsiteUrl": "string",
+      "Location": "string",
+      "AboutMe": "string",
+      "Views": "Int64",
+      "UpVotes": "Int64",
+      "DownVotes": "Int64",
+      "AccountId": "string",
+      "ProfileImageUrl": "string"
+  }
+ }
