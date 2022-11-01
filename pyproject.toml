@@ -34,6 +34,7 @@ nbformat = "^5.7.0"
 py7zr = "^0.20.1"
 xmltodict = "^0.13.0"
 pyarrow = "^10.0.0"
+raceplotly = "^0.1.6"
 
 
 [tool.poetry.group.dev.dependencies]

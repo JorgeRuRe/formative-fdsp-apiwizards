@@ -1266,6 +1266,19 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "raceplotly"
+version = "0.1.6"
+description = "Tiny package to make 'race' barplots using plotly"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+numpy = "*"
+pandas = "*"
+plotly = "*"
+
+[[package]]
 name = "requests"
 version = "2.28.1"
 description = "Python HTTP for Humans."
@@ -1603,7 +1616,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "f2aa14277be61bb4fc070d23c755f0e75db0a7ad753cbec010610e3fc355eb83"
+content-hash = "199829ddb2d3484c49e78ac84729ec65b18aa1139281aa47efb7778edcf82d76"
 
 [metadata.files]
 aiodns = [
@@ -3369,6 +3382,10 @@ pyzstd = [
     {file = "pyzstd-0.15.3-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:33e94fbccea132044ffbd3523a376c1de5afb521ecfd54f44de4ac8d3681dddb"},
     {file = "pyzstd-0.15.3-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:c0fbef0dbe12a34b8c1eb980c18ea39c432565a77922bc692eeb666fa77fe97b"},
     {file = "pyzstd-0.15.3.tar.gz", hash = "sha256:ac4edab5d3955343e8f7f287e62cd2882907d46bcba4b406a1e9f84aa2887472"},
+]
+raceplotly = [
+    {file = "raceplotly-0.1.6-py3-none-any.whl", hash = "sha256:d52ff0240d486f3bef949ff485f5ba373455c561c5c5a7ac7ded73cd4723448f"},
+    {file = "raceplotly-0.1.6.tar.gz", hash = "sha256:39a7263acc0731d101b2cd1bb899531ccbd9e5ed7b27abe6f66a726b5ed7d4d9"},
 ]
 requests = [
     {file = "requests-2.28.1-py3-none-any.whl", hash = "sha256:8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349"},
